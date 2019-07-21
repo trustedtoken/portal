@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -21,6 +21,36 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Hero {
+  height: 100vh;
+  background: #1D1F44;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.Container {
+  height: inherit;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.Hero-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.Hero-description {
+  max-width: 37.5rem;
+}
+
+.Hero-logo {
+  max-width: 3.75rem;
 }
 
 @keyframes App-logo-spin {
